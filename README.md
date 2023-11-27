@@ -1,1 +1,1 @@
-Repo for examples from the [Learn Enough Python](https://learning.oreilly.com/videos/learn-enough-python/) video course
+Repo for examples from the [Learn Enough Python](https://learning.oreilly.com/library/view/learn-enough-python/9780138051143/) book
