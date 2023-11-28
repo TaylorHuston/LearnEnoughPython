@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+#Executable script, must chmod +x it
+
+print("hello, world!")
