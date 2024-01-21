@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+import requests
+
+from palindrome_thuston.phrase import Phrase
+
+URL = "https://cdn.learnenough.com/phrases.txt"
+
+#for line in requests.get(URL).content.decode("utf-8").splitlines():
+#    if Phrase(line).ispalindrome():
+#        print(line)
+
+palindrome_content = [line for line in requests.get(URL).content.decode("utf-8").splitlines() if Phrase(line).ispalindrome()]
+print(palindrome_content)
